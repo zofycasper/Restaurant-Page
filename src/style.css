@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+}
+
+.nav {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem;
+    justify-content: center;
+}
+
+.footer {
+    background-color: aqua;
+}
+
+#content {
+    display: grid;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    width: 50rem;
+}
