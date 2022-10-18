@@ -1,15 +1,16 @@
 const home = document.createElement("div");
-const restTitle = document.createElement("div");
+const restTitle = document.createElement("h2");
 const intro = document.createElement("div");
-const introTitle = document.createElement("p");
+const introTitle = document.createElement("h3");
 const introContent = document.createElement("p");
 const location = document.createElement("div");
-const locationTitle = document.createElement("p");
+const locationTitle = document.createElement("h3");
 const locationContent = document.createElement("p");
 
 home.classList.add("home");
 
 // Home page title
+
 restTitle.textContent = "Shaxian Delicacies";
 
 // Intro div content

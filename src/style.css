@@ -1,5 +1,6 @@
 body {
-    height: 100vh;
+    padding: 0px;
+    margin: 0px;
 }
 
 .nav {
@@ -9,22 +10,76 @@ body {
     justify-content: center;
 }
 
+.main {
+    display: grid;
+    padding: 0px 10rem 0px 10rem;
+}
+
 .footer {
     background-color: aqua;
 }
 
 #content {
+    height: 100vh;
     display: grid;
+    grid-template-rows: 5rem 1fr 5rem;
 }
 
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    display: grid;
     justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
+h2 {
+    font-size: 5rem;
+    display: grid;
+    align-items: center;
+    margin: 2rem 0px;
+    background-color: bisque;
+}
+
+.menu,
+.contact {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 5fr 10fr;
+}
+
+.menu-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-rows: repeat(auto-fit, 1fr);
+    align-items: start;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    display: grid;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: auto auto;
+}
+
+/* .card img {
+    
+} */
+
 p {
-    width: 50rem;
+    text-align: center;
+}
+
+div > img {
+    width: 30rem;
+    height: 320px;
+}
+
+.contact-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
