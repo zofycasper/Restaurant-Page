@@ -21,8 +21,6 @@ navbar.update();
 // Construct footer section
 const footerSection = new Section(footer);
 footer.classList.add("footer");
-footerSection.create("button", "test");
-footerSection.update();
 
 // ContentDiv update
 const mainSection = new Section(main);

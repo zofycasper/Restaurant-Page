@@ -35,11 +35,3 @@ export default class Section {
         console.log(this.section);
     }
 }
-
-export class Dish {
-    constructor(name, price) {
-        this.name = name;
-        this.price = price;
-        return name, price;
-    }
-}
